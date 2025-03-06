@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment-1</title>
+  </head>
+  <body>
+    <main>
+      <nav class="navbar container" id="navbar">
+        <div class="navbar__logo">
+          <img src="img/Logo.png" alt="logo" />
+        </div>
+        <div class="navbar__links">
+          <a href="#" class="navbar__link">Buy</a>
+          <a href="#" class="navbar__link">Sell</a>
+          <a href="#" class="navbar__link">Create an offer</a>
+        </div>
+        <div class="navbar__btns">
+          <button class="navbar__btn">Login</button>
+          <button class="navbar__btn">Get started</button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 navbar__svg">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+          </svg>
+        </div>
+      </nav>
+      <section id="hero">
+        <div class="hero container">
+          <div class="hero__details">
+            <h3 class="hero__title">Find your offer ✨</h3>
+            <form class="hero__form">
+              <div class="from__inputs">
+                <select name="" id="">
+                  <option value="#">Currency</option>
+                  <option value="taka">Taka</option>
+                  <option value="dollar">Dollar</option>
+                </select>
+                <br />
+                <select name="" id="">
+                  <option value="#">Buy</option>
+                  <option value="buy">Buy</option>
+                  <option value="sell">Sell</option>
+                </select>
+                <br />
+                <select name="" id="">
+                  <option value="#">Payment</option>
+                  <option value="paypal">Paypal</option>
+                  <option value="bank">Bank</option>
+                </select>
+                <br />
+                <select name="" id="">
+                  <option value="#">Currency</option>
+                  <option value="taka">Taka</option>
+                  <option value="dollar">Dollar</option>
+                </select>
+              </div>
+              <div class="from__btns">
+                <input class="from__text" type="text" placeholder="How much" />
+                <button class="from__btn">Find offer</button>
+              </div>
+            </form>
+            <button class="hero__btn">Why Zappr?</button>
+          </div>
+        </div>
+      </section>
+      <section id="brand" class="brand">
+        <h3 class="brand__title">Buy/Sell the favorites with No Fees*</h3>
+        <div class="brand__logos">
+          <img src="img/Bitcoin (BTC).svg" alt="" />
+          <img src="img/Ethereum (ETH).svg" alt="" />
+          <img src="img/Tether (USDT).svg" alt="" />
+          <img src="img/Cardano (ADA).svg" alt="" />
+          <img src="img/Binance Coin (BNB).svg" alt="" />
+          <img src="img/Polygon (MATIC).svg" alt="" />
+          <img src="img/Chainlink (LINK).svg" alt="" />
+        </div>
+      </section>
+      <section id="Features">
+        <div class="Features container">
+          <h3 class="Features__title">Features: We think about you</h3>
+          <div class="Features__details">
+            <div class="card card__1">
+              <img src="img/Secure.svg" class="card__img" />
+              <h4 class="card__title">Secured by Escrow</h4>
+              <p class="card__disc">
+                Amet minim mollit non deserunt <br />
+                ullmco est sit dolor do <br />
+                amet sint
+              </p>
+              <a href="#" class="card__link"> Learn how our Escrow works </a>
+            </div>
+            <div class="card card__2">
+              <img src="img/NewbieFriendly.svg" class="card__img" />
+              <h4 class="card__title">Newbie Friendly</h4>
+              <p class="card__disc">
+                Amet minim mollit non deserunt <br />
+                ullmco est sit dolor do <br />
+                amet sint
+              </p>
+              <a href="#" class="card__link">
+                We always keep ypu in mind, See More
+              </a>
+            </div>
+            <div class="card card__3">
+              <img src="img/Payments.svg" class="card__img" />
+              <h4 class="card__title">120+ Payment Methods</h4>
+              <p class="card__disc">
+                Amet minim mollit non deserunt <br />
+                ullmco est sit dolor do <br />
+                amet sint
+              </p>
+              <a href="#" class="card__link">Discover all payment Methods</a>
+            </div>
+          </div>
+          <p class="Features__btn">See full features</p>
+        </div>
+      </section>
+      <section id="offer">
+        <div class="offer container">
+          <div class="offer__left">
+            <h4 class="offer__title">Buy</h4>
+            <div class="offer__view">
+              <div class="card card__1">
+                <img src="img/blur.png" class="card__img" />
+                <p class="offer__name">Zelle,1+</p>
+                <p class="offer__history">30,244.12 / USD/BTC</p>
+                <p class="offer__balance">$10-200$</p>
+              </div>
+              <div class="card card__2">
+                <img src="img/blur.png" class="card__img" />
+                <p class="offer__name">Paypal</p>
+                <p class="offer__history">30,244.12 / USD/BTC</p>
+                <p class="offer__balance">$5-1k$</p>
+              </div>
+              <div class="card card__3">
+                <img src="img/blur.png" class="card__img" />
+                <p class="offer__name">Wire</p>
+                <p class="offer__history">30,244.12 / USD/BTC</p>
+                <p class="offer__balance">$100-3k$</p>
+              </div>
+              <p class="offer__btn">View Buy's offers</p>
+            </div>
+          </div>
+          <div class="offer__right">
+            <h4 class="offer__title">Sell</h4>
+            <div class="offer__view">
+              <div class="card card__1">
+                <img src="img/blur.png" class="card__img" />
+                <p class="offer__name">Zelle,1+</p>
+                <p class="offer__history">30,244.12 / USD/BTC</p>
+                <p class="offer__balance">$10-200$</p>
+              </div>
+              <div class="card card__2">
+                <img src="img/blur.png" class="card__img" />
+                <p class="offer__name">Paypal</p>
+                <p class="offer__history">30,244.12 / USD/BTC</p>
+                <p class="offer__balance">$5-1k$</p>
+              </div>
+              <div class="card card__3">
+                <img src="img/blur.png" class="card__img" />
+                <p class="offer__name">Wire</p>
+                <p class="offer__history">30,244.12 / USD/BTC</p>
+                <p class="offer__balance">$100-3k$</p>
+              </div>
+            </div>
+            <p class="offer__btn">View Sell's offers</p>
+          </div>
+        </div>
+      </section>
+      <section id="login">
+        <div class="login container">
+          <h3 class="login__title">
+            Sign up and buy or sell crypto in 5 minutes with zero commission
+            fees
+          </h3>
+          <div class="login__btn">
+            <p>Get started</p>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="footer container">
+          <div class="footer__details">
+            <div class="footer__name">
+              <p>spacIo</p>
+            </div>
+            <div class="footer__product">
+              <h5 class="footer__subtitle">Product</h5>
+              <p class="footer__links">Sell Bitcoin</p>
+              <p class="footer__links">Buy Bitcoin</p>
+              <p class="footer__links">Sell Ethereum</p>
+              <p class="footer__links">Buy Ethereum</p>
+              <p class="footer__links">Sell Solana</p>
+              <p class="footer__links">Buy Solana</p>
+            </div>
+            <div class="footer__about">
+              <h5 class="footer__subtitle">About spacio</h5>
+              <p class="footer__links">About us</p>
+              <p class="footer__links">Fees</p>
+              <p class="footer__links">Careers</p>
+              <p class="footer__links">Rewards Program</p>
+              <p class="footer__links">Privacy Policy</p>
+              <p class="footer__links">Terms & Conditions</p>
+            </div>
+            <div class="footer__support">
+              <h5 class="footer__subtitle">Support</h5>
+              <p class="footer__links">Moderators</p>
+              <p class="footer__links">Contact Support</p>
+              <p class="footer__links">FAQ</p>
+              <p class="footer__links">Help Center</p>
+              <p class="footer__links">Community</p>
+              <p class="footer__links">Security</p>
+            </div>
+          </div>
+
+          <div class="footer__copyright">
+            <p>
+              “SPACI0” is a registered trademark of Logic0x, Ltd. Copyright ©
+              2022 Logic0x, Ltd. All Rights Reserved. Paxful Inc. has no
+              relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum,
+              Paypal, Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money,
+              WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend,
+              Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller,
+              Venmo, Apple, ChimpChange or any other payment method. We make no
+              claims about being supported by or supporting these services.
+              Their respective wordmarks and trademarks belong to them alone.
+              Official mailing address: 3422 Old Capitol Trail, PMB 989,
+              Wilmington DE 19808
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
