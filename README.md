@@ -1,8 +1,18 @@
-# helloSwaps - Simple Landing Page
+<h1 align='center'>
+
+helloSwaps - Simple Landing Page
+
+</h1>
 
 This is a **responsive landing page project** built with only **HTML and CSS** following a **mobile‑first design approach**. The project is a concept UI for a crypto exchange platform where users can explore buy/sell offers, view features, and sign up.
 
-## ✨ Features
+---
+
+<div align='center'>
+
+# ✨ Features
+
+</div>
 
 - **Mobile‑first responsive design**  
   Starts simple on small screens, then scales up beautifully with CSS media queries.
@@ -33,7 +43,11 @@ This is a **responsive landing page project** built with only **HTML and CSS** f
 
 ---
 
-## 🛠️ Technologies Used
+<div align='center'>
+
+# 🛠️ Technologies Used
+
+</div>
 
 - **HTML5**
 - **CSS3**
@@ -43,7 +57,11 @@ That’s it has no JavaScript , frameworks or libraries. 100% static front‑end
 
 ---
 
-## 📱 Mobile‑First Design
+<div align='center'>
+
+# 📱 Mobile‑First Design
+
+</div>
 
 Instead of building for desktop and “squeezing” it down, this page starts with the smallest screen in mind and progressively enhances layouts with media queries for larger sizes.
 
@@ -55,18 +73,36 @@ This ensures:
 
 ---
 
-## 📦 Folder Structure
+<div align='center'>
 
-helloSwaps
-┣ img/ # All image and SVG assets
-┣ index.html # Main HTML file
-┣ style.css # CSS file (linked in HTML head)
-┗ README.md # Documentation
+# 📦 Folder Structure
+
+</div>
+
+helloSwaps  
+┣ img/  
+┣ index.html  
+┣ style.css  
+┗ README.md
 
 ---
 
-## 👨‍💻 Author
+<div align='center'>
 
-This README provides a professional explanation but still feels welcoming for anyone glancing at your repo. It highlights **mobile‑first design** and explains the page sections clearly so future recruiters or collaborators instantly understand your project.
+# 🚀 Getting Started
 
-Would you like me to also create a **shorter “resume‑friendly” version** of the README (tight, 6–7 lines), so you can use it in a portfolio setting?
+</div>
+
+<pre>git clone https://github.com/TOMJID/helloSwaps.git
+ cd helloSwaps  </pre>
+
+<div align= "center">
+
+# 👨‍💻 Author
+
+<h4>
+
+Crafted with care & love as a web developer [ Tomjid ]
+
+</h4>
+</div>
