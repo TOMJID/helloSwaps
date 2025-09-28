@@ -27,7 +27,6 @@ button {
   cursor: pointer;
 }
 /* container for responsive */
-
 .container {
   width: 100%;
   margin-left: auto;
@@ -49,7 +48,7 @@ body {
   height: 100px;
 
   .navbar__logo {
-    scale: 0.7;
+    scale: 0.5;
   }
 
   .navbar__link {
@@ -61,6 +60,7 @@ body {
     display: none;
   }
   .navbar__btns {
+    margin-inline: 10px;
     display: inline-flex;
     gap: 0.5rem;
 
@@ -68,10 +68,11 @@ body {
       &:nth-child(2) {
         color: var(--white);
         background-color: var(--black);
+        display: none;
       }
     }
     .navbar__svg {
-      width: 28px;
+      width: 38px;
       margin-inline-end: 30px;
     }
   }
@@ -269,7 +270,6 @@ body {
 /* Features section ends */
 
 /* offer section starts */
-/* offer section starts */
 #offer {
   border-bottom: 1px solid var(--gray);
 }
@@ -409,20 +409,6 @@ body {
 }
 /* footer section ends */
 
-/* xs */
-/* @media (min-width: 475px) {
-  .container {
-    max-width: 475px;
-  }
-} */
-
-/* sm */
-/* @media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-} */
-
 /* md */
 @media (min-width: 768px) {
   .container {
@@ -430,6 +416,9 @@ body {
   }
   /* navbar section starts */
   #navbar {
+    .navbar__logo {
+      scale: 0.6;
+    }
     .navbar__link {
       display: inline;
     }
@@ -515,6 +504,17 @@ body {
   .container {
     max-width: 1024px;
   }
+  /* navbar section starts */
+  #navbar {
+    .navbar__btn {
+      &:nth-child(2) {
+        display: block;
+      }
+    }
+  }
+
+  /* navbar section ends */
+
   /* hero section */
   .from__inputs {
     display: flex;
